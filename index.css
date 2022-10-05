@@ -7,6 +7,8 @@ body {
 .container{
     width: 100%;
     height: 500px;
+    margin: auto;
+    align-items: center;
 }
 
 
@@ -510,11 +512,23 @@ nav ul ul li a:hover {
     width: 100%;
     height: 400px;
     margin-bottom: 20px;
+    align-items: center;
 }
 .bawahvideo .containervidd{
-    width: 1000px;
+    width: 100%;
     margin: auto;
+    display: contents;
+    position: relative;
+    justify-content: center;
     height: 300px;
+    align-items: center;
+
+}
+.bawahvideo .containervidd .contvid1{
+    width: 100%;
+    display: flex;
+    justify-content: center;    
+    align-items: center;
 }
 .bawahvideo .bag1{
     width: 200px;
@@ -559,17 +573,24 @@ nav ul ul li a:hover {
 .recent{
     width: 100%;
     height: 800px;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    /* margin-top: 20px; */
+    /* margin-bottom: 20px; */
+    margin: auto;
+    display: flex;
+    justify-content: center;    
+    align-items: center;
 }
 .recent .fotorec{
     width: auto; 
     height: auto;
     float: left;
-    margin-bottom: 30px; 
-    margin-top: 40px;
-    margin-left: 300px;
-    margin-right: -95px;
+    margin: auto;
+    /* margin-bottom: 30px;  */
+    /* margin-top: 40px; */
+    /* margin-left: 300px; */
+    /* margin-right: -95px; */
+    align-items: center;
+    justify-content: center;
 }
 .recent .fotorec img{
     width: 300px; 
@@ -655,11 +676,13 @@ nav ul ul li a:hover {
 .bg1 .ke2 .bungkus ul li{
     margin-left: 5px;
     margin-bottom: 5px;
+    
 }
 
 .bg1 .ke2 ul a{
     font-size: 16px;
     color: #f4acb7;
+    text-align: left;
 }
 
 .bg1 .pembungkusfut .kiri{
